@@ -1,0 +1,459 @@
+body{
+		font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+		font-size: 16px;
+		color:darkslategray;
+}
+
+header{
+		background-color: #FFFFFF;
+		padding: 20px 0;
+		color: black;
+}
+
+#secc-slider{
+		background-image: url(../img/slide-01.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		color:#FFFFFF;
+		text-align: center;
+		padding: 20px 0;
+		height: 600px;	
+}
+
+#secc-slider h2{
+	font-size: 32px;
+	text-transform: uppercase;
+}
+
+.barra{
+	background-color: #8A0935;
+	width: 360px;
+	height: 1px;
+	allign: right;
+}
+
+#secc-slider h1{
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.btn-naranja{
+	background-color: #8A0935;
+	color: #ffffff;
+	border-radius: 0;
+	border:0;
+	text-transform: uppercase;
+	padding: 10px 30px;
+}
+
+.barra-izquierda{
+	display: inline-block;
+}
+
+.espaciado{
+	padding: 50px 0px
+}
+
+.titulo{
+	font-size: 60px;
+	font-weight: 700;
+	color: #7E0530;
+	text-align:center;
+}
+
+#sec-amanda h3{
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+p{
+	color: #777777;
+}
+
+.firma-amanda{
+	color: #f54f15;
+	font-size: 25px;
+	font-style: italic;
+	font-family: "aguafina-script";
+}
+
+#secc-ourclasses .titulo{
+	text-align: center;
+}
+
+#secc-ourclasses{
+	background-color: #870732;
+}
+
+#secc-ourclasses h3{
+	color: # FFFFFF;
+}
+
+#whatever-mood{
+	background-image: url(../img/bg-fitness.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #ffffff;
+	text-align: center;
+	padding: 100px 0;
+	height: 600px;	
+}
+
+#whatever-mood h1{
+	font-size: 60px;
+	font-weight: 700;
+}
+
+.barra-coaches{
+	color: #fff;
+	align-content: center
+}
+
+#secc-coaches{
+	background-image: url(../img/bg-coaches.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #ffffff;
+}
+
+.barra-blanca{
+	background-color: #fff;
+	width: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 3px;
+}
+
+.cuadro-blanco{
+	background-color: #fff;
+	padding: 30px 20px;
+	text-align: center
+}
+
+.cuadro-blanco h2{
+	color: #333;
+	font-size: 24px;
+	font-weight: 600;
+	margin-top: 25px;
+	margin-bottom: 0;
+}
+
+.cuadro-blanco h3{
+	color: #8A0834;
+	font-size: 18px;
+	font-weight:600;
+	margin-top: 0;
+}
+
+#secc-fitnessposts h4{
+	text-align: center
+}
+
+#secc-ourclasses .owner, 
+#secc-ourclasses .owner-info{
+	position: relative;
+}
+
+#secc-ourclasses .slave{
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+	background-color: #FFFFFF;
+	padding-top: 15px 25px;
+}
+
+#secc-ourclasses .slave h3{
+	color: #000000;
+	font-weight: 600;
+	margin-left: 20px;
+}
+
+#secc-ourclasses .slave-info, .slave-overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(245,79,21,0.70);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	transition: all ease-in-out 0.5s;
+}
+
+#secc-ourclasses .slave-info h3,
+a, .slave-overlay{
+	color: #FFFFFF;
+	font-weight: 600;
+}
+
+#secc-ourclasses .owner-info:hover .slave-info,
+.overlay:hover .slave-overlay{
+	opacity: 1;
+	transition: all ease-in-out 0.5s;
+}
+
+#secc-ourclasses .overlay,
+.overlay{
+	position: relative;
+}
+
+#secc-ourclasses .bg-overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: hsla(0,0%,0%,0.85);
+	z-index: 1;
+}
+
+#secc-ourclasses .slave-overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(245,79,21,0.70);
+	z-index: 2;
+}
+
+#secc-ourclasses .slave-overlay h3{
+	color: #FFFFFF;
+	font-weight: 600;
+	z-index: 3;
+}
+
+footer{
+	background-color: #77012B;
+	color: #777;
+	padding: 10% 0px;
+	text-align: center;
+}
+
+footer h3{
+	color: aliceblue;
+}
+
+footer h3 span{
+	color: # FFFFFF;
+	font-weight: 100;
+	}
+
+.redes{
+	margin-top: 45px;
+	margin-bottom: 45;
+}
+
+.redes a{
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	border: 2px solid #fff;
+	display: block;
+	border-radius: 100%;
+	color: #fff;
+	text-decoration: none;
+}
+
+.redes li{
+	display: inline-block;
+}
+
+.redes a:hover{
+	background-color: aliceblue;
+	color:#FFFFFF;
+	transition: all ease 0.3s;
+}
+
+footer p a{
+	color: #FFFFFF;
+	font-weight: 400;
+}
+
+footer p a:hover{
+	color: #f54f15
+}
+
+#sec-breadcrumb{
+	background-color: #F3F3F3;
+}
+
+#sec-breadcrumb .breadcrumb{
+	background-color: transparent;
+	border-radius: 0;
+}
+
+#sec-content{
+	text-align: center;
+	margin-bottom: 45px;
+}
+
+#sec-content h4{
+	font-weight: 700;
+	text-align: center;
+}
+
+.letra-naranja{
+	color: #7E032F;
+}
+
+#sec-content .font-weight-bold{
+	color: #000000;
+}
+
+#map{
+	width: 100%;
+	min-height: 300px;
+}
+
+.ocultar{
+	display: none;
+}
+
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+.header-area.sticky .navbar-light{
+    background-color: #000000;
+}
+
+.back-to-top { 
+    text-align: center; 
+    background: rgba(0,0,0,0.40); 
+    color: #fff; 
+    display: none; 
+    width: 40px; height: 40px; line-height: 40px; 
+    font-family: "FontAwesome";
+    font-size: 35px; 
+    position: fixed; 
+    right: 20px; 
+    bottom: 20px; 
+    -webkit-transition: all 0.5s ease; 
+    transition: all 0.5s ease; 
+    cursor: pointer; 
+    z-index: 9999; 
+}
+.back-to-top:hover { 
+    opacity: 1; 
+}
+.back-to-top:before{
+    content: "\f062";
+}
+
+.owl-carousel .owl-item img{
+	width: inherit;
+}
+
+.app-carousel h4{
+	color: #F54F15;
+	font-weight: 600;
+}
+
+.app-carousel h5{
+	color: #000000;
+	font-weight: 600;
+	font-size: 15px;
+}
+
+
+
+/*Diseño Móvil (xs) */
+@media (max-width:480px){
+	.btn-naranja{
+		padding: 5px 10px;
+		font-size: 14px;
+	}
+	
+	#sec-carousel .caption-center h2{
+		font-size: 24px;
+	}
+	
+	.btn-negro{
+		background-color: hsla(0,0%,0%,0.75);
+		color: aliceblue;
+	}
+	
+	.header-area.sticky {
+		position: relative;
+	}
+}
+
+
+/* Diseño Tableta y Móvil (xs y sm)*/
+@media (max-width:768px){
+	#secc-ourclasses .slave-info{
+		opacity: 1;	
+	}
+	#secc-ourclasses article, #sec-imgroulette article, #whatever-mood article{
+		margin-top: 10px;
+	}
+}
+
+.titulo2{
+	font-size: 60px;
+	font-weight: 700;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.barra2{
+	background-color: #FFFFFF;
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 1px;
+}
+
+#sec-white{
+	background-color: #FFFFFF;
+}
+
+.titulo3{
+	font-size: 60px;
+	font-weight: 700;
+	color: #7E032F;
+	text-align: center;
+}
+	
+	.title-deco{
+	background-color: #FFFFFF;
+	width: 250px;
+	height: 3px;
+}
+
+.main-title{
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	color: #870732;
+}
+
+#learn-more{
+	text-align: center;
+	align-content: center;
+	align-items: center;
+	background-color: #FFFFFF;
+}
+
+.espacio{
+	padding: 50px 0px
+}
+
+.titulo4{
+	font-size: 20px;
+	font-weight: 400;
+	color: #7E032F;
+	text-align: center;
+}
+	
